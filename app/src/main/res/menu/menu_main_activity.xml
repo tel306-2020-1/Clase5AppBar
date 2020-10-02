@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuAgregar"
+        android:icon="@drawable/ic_action_agregar"
+        android:onClick="agregarMenuBtn"
+        android:orderInCategory="2"
+        android:title="Agregar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuBorrar"
+        android:icon="@drawable/ic_action_borrar"
+        android:orderInCategory="3"
+        android:title="Borrar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuAndroid"
+        android:icon="@drawable/ic_action_name"
+        android:orderInCategory="1"
+        android:title="android"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuPersona"
+        android:icon="@drawable/ic_action_persona"
+        android:orderInCategory="1"
+        android:title="persona"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuSalir"
+        android:icon="@drawable/ic_action_salir"
+        android:orderInCategory="500"
+        android:title="salir"
+        app:showAsAction="never" />
+</menu>

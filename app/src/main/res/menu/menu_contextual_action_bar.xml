@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuLlamada"
+        android:icon="@drawable/ic_action_llamada"
+        android:title="Llamada"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_avion"
+        android:icon="@drawable/ic_action_avion"
+        android:title="Modo Avión"
+        app:showAsAction="always" />
+</menu>
